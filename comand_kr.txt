@@ -1,0 +1,28 @@
+  554  cat > animal1
+  556  cat > animal2
+  557  ll
+  567  cat animal1 animal2 > Друзья_человека
+  569  cat Друзья_человека
+  570  ll
+  571  mv Друзья_человека ДрузьяЧеловека
+  572  ll
+  589  mkdir folder
+  590  touch file1
+  591  touch file2
+  592  mv file1 folder
+  593  ll
+  594  mv file2 folder
+  594  cd folder
+  594  ll
+  594  cd ..  
+  595  rm -rf folder
+  596  ll
+  597  sudo docker run --name -e MYSQL_ROOT_PASSWORD=mysql123 -d mysql:8.1.0
+  601  sudo docker run -it -h "$HOSTNAME" --name finishWork ubuntu:22.10 bash
+  602  sudo docker ps -a
+  603  sudo docker run --name -e MYSQL_ROOT_PASSWORD=mysql123 -d mysql:8.1.0
+  604  sudo docker run --name finish_work_mysql -e MYSQL_ROOT_PASSWORD=mysql123 -d mysql:8.1.0
+  605  sudo docker ps -a  631  sudo dpkg -i man-db_2.9.4-2amd64.db
+  632  dpkg -l
+  633  sudo dpkg -i zip_3.0-4amd64.deb
+  634  sudo dpkg -r zip
